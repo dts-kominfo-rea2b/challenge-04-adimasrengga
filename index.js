@@ -8,7 +8,7 @@ const dates = [
 ];
 
 // TODO: Buatlah fungsi createDate
-const createDateg = (data, waktu) => {
+const createDate = (data, waktu) => {
   const arrayDate = [];
   for (let i = 0; i<data.length; i++){
     const dateString = (new Date(data[i]).getTime()/1000).toString();
